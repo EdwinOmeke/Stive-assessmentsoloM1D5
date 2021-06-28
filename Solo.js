@@ -15,7 +15,7 @@
 /* Ex.A
    Create a variable called "test" and assign a string to it.
 */
-let test= "Edwin Omeke"
+let test = "Edwin Omeke"
 
 console.log(test)
 
@@ -32,7 +32,14 @@ console.log(sum)
 /* Ex.D
     Create a variable called "me" and assign to it an object containing the following information: name = your name, surname = your surname, age = your age.
 */
+let me = {
+    name: "Edwin",
+    surName: "Omeke",
+    age :26
+    
+}
 
+console.log(me)
 /* Ex.E 
     Programmatically remove the age property from the previously create object.
 */
