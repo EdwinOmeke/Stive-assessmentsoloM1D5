@@ -56,6 +56,8 @@ console.log(me)
 /* Ex.G 
    Programmatically remove the last skill from the "skills" array inside the "me" object.
 */
+arraySkills.pop()
+console.log(arraySkills)
 
 // JS Functions
 /* Ex.1
