@@ -70,7 +70,10 @@ const dice = () => {
 /* Ex.2 
     Write a function called "whoIsBigger" which receives 2 numbers as parameters and returns the biggest one.
 */
-
+const whoIsBigger = (num1,num2) => {
+    num1 > num2 ? console.log(num1) : console.log(num2)
+}
+whoIsBigger(10,204)
 /* Ex.3
     Write a function called "splitMe" which receives a string as a parameter and returns an array with every word in that string.
     Ex. splitMe("I love coding") => returns ["I", "Love", "Coding"]
