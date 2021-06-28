@@ -109,7 +109,17 @@ const onlyLetters = (alphaNumValue) =>{
 /* Ex.6 
    Write a function called "isThisAnEmail" which receives a string as a parameter and returns true if the string is a valid email address.
 */
-
+const isThisAnEmail = (emailInput) => {
+    function ValidateEmail(mail) 
+    {
+     if (/^[a-zA-Z0-9.!#$%&'+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/.test(emailInput))
+      {
+        return (true)
+      }
+        return (false)
+    }
+}
+console.log(isThisAnEmail('crankobil@gmail.com'))
 /* Ex.7
    Write a function called "whatDayIsIt" that should return the current day of the week.
 */
