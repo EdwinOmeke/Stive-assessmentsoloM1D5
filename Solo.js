@@ -63,7 +63,10 @@ console.log(arraySkills)
 /* Ex.1
     Write a function called "dice"; it should randomize an integer number between 1 and 6.
 */
-
+const dice = () => {
+    let resultOfDiceRoll = Math.floor(Math.random() * 6);
+    console.log(resultOfDiceRoll)
+}
 /* Ex.2 
     Write a function called "whoIsBigger" which receives 2 numbers as parameters and returns the biggest one.
 */
