@@ -101,7 +101,11 @@ deleteOne ('remove',false)
    Write a function called "onlyLetters" which receives a string as a parameter and returns it removing all the digits.
    Ex.: onlyLetters("I have 4 dogs")  => returns "I have  dogs"
 */
-
+const onlyLetters = (alphaNumValue) =>{
+    let removeNumbers = alphaNumValue.replace(/[0-9]/g, '')
+    console.log(removeNumbers)
+  }
+  onlyLetters ('445Big352')
 /* Ex.6 
    Write a function called "isThisAnEmail" which receives a string as a parameter and returns true if the string is a valid email address.
 */
