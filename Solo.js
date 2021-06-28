@@ -49,6 +49,9 @@ console.log(me)
 /* Ex.F 
    Programmatically add to the object me an array called "skills", containing the programming languages you know right now.
 */
+let arraySkills = ["Javascript", "Python"]
+me.arraySkills = ["Javascript", "Python"]
+console.log(me) 
 
 /* Ex.G 
    Programmatically remove the last skill from the "skills" array inside the "me" object.
